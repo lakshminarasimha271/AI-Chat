@@ -1,0 +1,5 @@
+Explanation:
+Corpus: Contains a set of predefined responses that the chatbot can use.
+TF-IDF Vectorization: Converts text into numerical vectors using the TF-IDF (Term Frequency-Inverse Document Frequency) approach, which helps in understanding the importance of words in the context of the entire corpus.
+Cosine Similarity: Measures the similarity between the user input (transformed into a TF-IDF vector) and each response in the corpus. The response with the highest similarity score is chosen as the chatbot's reply.
+Tokenizer: Uses TweetTokenizer from NLTK for tokenization, which is suitable for social media text and conversational language.
